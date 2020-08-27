@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Harry Potter 7",
+        "author": "J.k.Roling",
+        "isbn": "2020",
+        "isRemote": "true"
+    },
+    {
+        "title": "Lord Of Rings",
+        "author": "J.R.R Tolkin",
+        "isbn": "4751",
+        "isRemote": true
+    },
+    {
+        "title": "Narnia",
+        "author": "K.S Luis",
+        "isbn": "6247",
+        "isRemote": "true"
+    },
+    {
+        "title": "The Bible",
+        "author": "God",
+        "isbn": "777",
+        "isRemote": "true"
+    },
+    {
+        "title": "Fight Club",
+        "author": "Chuck Palanick",
+        "isbn": "4571",
+        "isRemote": "true"
+    }
+]

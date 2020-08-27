@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="bootstrap.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron" style="background:WhiteSmoke">
+            <h1>Book Edit</h1>
+            <form id="book-form">
+                <fieldset>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Book Name:</label>
+                        <input type="text" class="form-control" id="title" aria-describedby="emailHelp"
+                            placeholder="Enter Book Title...">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Author:</label>
+                        <input type="text" class="form-control" id="author" aria-describedby="emailHelp"
+                            placeholder="Enter Author...">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">ISBN:</label>
+                        <input type="text" class="form-control" id="isbn" aria-describedby="emailHelp"
+                            placeholder="Enter ISBN...">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Save Updated Book</button>
+
+
+                </fieldset>
+            </form>
+        </div>
+        <script src="edit.js"></script>
+
+</body>
+
+</html>
